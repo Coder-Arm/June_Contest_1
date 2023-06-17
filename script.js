@@ -27,13 +27,14 @@ function addData() {
 
 function removeAdmin() {
   //Write your code here, just console.log
-let filteredArr = arr.filter(x => x["profession"] !== "admin");
- arr = filteredArr;
-  console.log(arr);
+arr = arr.filter(x => x["profession"] !== "admin");
+console.log(arr);
+
 }
 
 function concatenateArray() {
   //Write your code here, just console.log
+
   let newArr = [{id : 4 , name : "rohit" , age : "21" , profession : "intern"},
   {id : 5 , name : "akshat" , age : "29" , profession : "manager"},
   {id : 6 , name : "tanmay" , age : "23" , profession : "developer"}
