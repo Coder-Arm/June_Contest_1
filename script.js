@@ -27,8 +27,8 @@ function addData() {
 
 function removeAdmin() {
   //Write your code here, just console.log
-let remove = arr.filter(x => x["profession"] === "admin");
-arr.pop(remove[0]);
+let filteredArr = arr.filter(x => x["profession"] !== "admin");
+ arr = filteredArr;
   console.log(arr);
 }
 
