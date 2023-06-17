@@ -13,7 +13,7 @@ function PrintDeveloperbyMap() {
 
 function PrintDeveloperbyForEach() {
   //Write your code here , just console.log
-  arr.forEach((element,index) => {
+  arr.forEach((element) => {
         if(element["profession"] === "developer") console.log(element);
   })
 }
